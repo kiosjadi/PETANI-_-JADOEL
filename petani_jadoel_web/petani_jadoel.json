@@ -1,0 +1,1723 @@
+{
+  "tanaman": [
+    {
+      "id": 1,
+      "nama": "Padi",
+      "kategori": "Pangan",
+      "deskripsi": "Tanaman pangan utama, butuh air cukup",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Tanah subur berasal dari tangan yang rajin",
+      "hama_penyakit": [
+        "Wereng",
+        "Tikus"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 2,
+      "nama": "Jagung",
+      "kategori": "Pangan",
+      "deskripsi": "Tanaman mudah tumbuh, tahan panas",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram cukup, beri pupuk kandang",
+      "petuah_leluhur": "Jagung tak takut panas, asalkan tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Burung"
+      ],
+      "panen": "2.5-3 bulan"
+    },
+    {
+      "id": 3,
+      "nama": "Kentang",
+      "kategori": "Pangan",
+      "deskripsi": "Umbi kaya karbohidrat",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Tanah gembur, penyiraman merata",
+      "petuah_leluhur": "Gali yang dalam, panen pun berlimpah",
+      "hama_penyakit": [
+        "Nematoda",
+        "Jamur"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 4,
+      "nama": "Tomat",
+      "kategori": "Sayur",
+      "deskripsi": "Kaya vitamin C, tumbuh baik di polybag",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas daun tua, pupuk kompos",
+      "petuah_leluhur": "Sabar merawat, hasil manis menanti",
+      "hama_penyakit": [
+        "Tungau",
+        "Layu"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 5,
+      "nama": "Cabai",
+      "kategori": "Sayur",
+      "deskripsi": "Pedas & produktif, cocok polybag",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram pagi & sore, pupuk organik",
+      "petuah_leluhur": "Pedasnya buah dari kerja keras",
+      "hama_penyakit": [
+        "Lalat buah",
+        "Virus"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 6,
+      "nama": "Kangkung",
+      "kategori": "Sayur",
+      "deskripsi": "Cepat tumbuh, bisa hidroponik",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk cair",
+      "petuah_leluhur": "Air yang cukup, hidup yang lancar",
+      "hama_penyakit": [
+        "Siput",
+        "Ulat"
+      ],
+      "panen": "1-1.5 bulan"
+    },
+    {
+      "id": 7,
+      "nama": "Anggur",
+      "kategori": "Buah",
+      "deskripsi": "Buah merambat, butuh cahaya penuh",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Ikat ranting, semprot larutan bawang putih",
+      "petuah_leluhur": "Ikat yang rapi, panen pun indah",
+      "hama_penyakit": [
+        "Jamur",
+        "Ulat"
+      ],
+      "panen": "6-8 bulan"
+    },
+    {
+      "id": 8,
+      "nama": "Mangga",
+      "kategori": "Buah",
+      "deskripsi": "Buah tropis besar, pohon besar",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Pangkas cabang tua, beri pupuk kandang",
+      "petuah_leluhur": "Pangkas yang tua, beri ruang yang muda",
+      "hama_penyakit": [
+        "Tungau",
+        "Lalat buah"
+      ],
+      "panen": "3-5 tahun"
+    },
+    {
+      "id": 9,
+      "nama": "Melon",
+      "kategori": "Buah",
+      "deskripsi": "Buah cepat panen, butuh sinar",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Jaga kelembaban tanah, ikat buah",
+      "petuah_leluhur": "Buah manis datang dari kesabaran",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 10,
+      "nama": "Stroberi",
+      "kategori": "Buah",
+      "deskripsi": "Buah kecil, cocok polybag",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram pagi, beri kompos",
+      "petuah_leluhur": "Kecil tapi manis, jika dirawat tulus",
+      "hama_penyakit": [
+        "Lalat buah",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 11,
+      "nama": "Basil",
+      "kategori": "Herbal",
+      "deskripsi": "Daun wangi, antioksidan",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas daun tua, cukup sinar",
+      "petuah_leluhur": "Aroma harum datang dari tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "1-2 bulan"
+    },
+    {
+      "id": 12,
+      "nama": "Mint",
+      "kategori": "Herbal",
+      "deskripsi": "Aromatik, cocok pot",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pot gembur",
+      "petuah_leluhur": "Aroma harum datang dari tangan rajin",
+      "hama_penyakit": [
+        "Lalat daun"
+      ],
+      "panen": "1-2 bulan"
+    },
+    {
+      "id": 13,
+      "nama": "Anggrek",
+      "kategori": "Hobi",
+      "deskripsi": "Tanaman hias, butuh naungan",
+      "media_tanam": [
+        "Cocopeat",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Semprot air, cahaya difilter",
+      "petuah_leluhur": "Hiasan alam butuh perhatian lembut",
+      "hama_penyakit": [
+        "Tungau",
+        "Jamur"
+      ],
+      "panen": "6-12 bulan"
+    },
+    {
+      "id": 14,
+      "nama": "Bonsai",
+      "kategori": "Hobi",
+      "deskripsi": "Miniatur pohon, seni merawat",
+      "media_tanam": [
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas cabang, siram rutin",
+      "petuah_leluhur": "Bonsai tumbuh dari kesabaran hati",
+      "hama_penyakit": [
+        "Serangga kecil"
+      ],
+      "panen": "Bertahun-tahun"
+    },
+    {
+      "id": 15,
+      "nama": "Lidah Buaya",
+      "kategori": "Herbal/Hobi",
+      "deskripsi": "Tanaman tropis, mudah tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram secukupnya, tanah kering",
+      "petuah_leluhur": "Keringkan yang berlebih, hidup lebih sehat",
+      "hama_penyakit": [
+        "Ulat"
+      ],
+      "panen": "6-12 bulan"
+    },
+    {
+      "id": 16,
+      "nama": "Bayam",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau cepat tumbuh, kaya zat besi",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, beri pupuk organik",
+      "petuah_leluhur": "Daun hijau untuk tubuh sehat, rawat dengan hati",
+      "hama_penyakit": [
+        "Ulat",
+        "Siput"
+      ],
+      "panen": "1-1.5 bulan"
+    },
+    {
+      "id": 17,
+      "nama": "Kacang Panjang",
+      "kategori": "Sayur",
+      "deskripsi": "Tumbuhan merambat, kaya protein",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, siram cukup",
+      "petuah_leluhur": "Merambat tinggi, hasil pun melimpah",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-2.5 bulan"
+    },
+    {
+      "id": 18,
+      "nama": "Wortel",
+      "kategori": "Sayur",
+      "deskripsi": "Umbi kaya vitamin A",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Tanah gembur, siram merata",
+      "petuah_leluhur": "Gali dengan sabar, manisnya terasa",
+      "hama_penyakit": [
+        "Ulat daun",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 19,
+      "nama": "Terong",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran ungu, mudah tumbuh di polybag",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Pangkas daun tua, beri pupuk organik",
+      "petuah_leluhur": "Rawat yang tua, beri nutrisi yang cukup",
+      "hama_penyakit": [
+        "Ulat",
+        "Layu"
+      ],
+      "panen": "3 bulan"
+    },
+    {
+      "id": 20,
+      "nama": "Semangka",
+      "kategori": "Buah",
+      "deskripsi": "Buah besar, butuh sinar penuh",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Ikat buah agar tidak menyentuh tanah",
+      "petuah_leluhur": "Buah manis datang dari perhatian tulus",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 21,
+      "nama": "Pepaya",
+      "kategori": "Buah",
+      "deskripsi": "Buah tropis cepat panen",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Sirami rutin, beri pupuk kandang",
+      "petuah_leluhur": "Tumbuh subur dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Lalat buah",
+        "Ulat"
+      ],
+      "panen": "9-12 bulan"
+    },
+    {
+      "id": 22,
+      "nama": "Jeruk",
+      "kategori": "Buah",
+      "deskripsi": "Buah citrus kaya vitamin C",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Pangkas cabang tua, siram rutin",
+      "petuah_leluhur": "Cabang yang sehat membawa buah manis",
+      "hama_penyakit": [
+        "Tungau",
+        "Kutu"
+      ],
+      "panen": "2-3 tahun"
+    },
+    {
+      "id": 23,
+      "nama": "Kunyit",
+      "kategori": "Herbal",
+      "deskripsi": "Umbi kuning, obat tradisional",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Tanah lembab, cukup sinar",
+      "petuah_leluhur": "Akar yang kuat, obat pun ampuh",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "8-10 bulan"
+    },
+    {
+      "id": 24,
+      "nama": "Jahe",
+      "kategori": "Herbal",
+      "deskripsi": "Umbi aromatik, obat & bumbu",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram cukup, tanah gembur",
+      "petuah_leluhur": "Akar yang hangat, tubuh pun hangat",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "8-10 bulan"
+    },
+    {
+      "id": 25,
+      "nama": "Kaffir Lime",
+      "kategori": "Buah/Herbal",
+      "deskripsi": "Daun & buah aromatik",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Cahaya cukup, siram teratur",
+      "petuah_leluhur": "Daun wangi dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Kutu",
+        "Tungau"
+      ],
+      "panen": "2-3 tahun"
+    },
+    {
+      "id": 26,
+      "nama": "Paprika",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran manis, butuh sinar penuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Pangkas daun tua, pupuk rutin",
+      "petuah_leluhur": "Buah manis dari perhatian konsisten",
+      "hama_penyakit": [
+        "Lalat",
+        "Ulat"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 27,
+      "nama": "Seledri",
+      "kategori": "Herbal",
+      "deskripsi": "Sayuran aromatik, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram cukup, tanah gembur",
+      "petuah_leluhur": "Aroma wangi tumbuh dari tanah terawat",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "1-1.5 bulan"
+    },
+    {
+      "id": 28,
+      "nama": "Cabe Rawit",
+      "kategori": "Sayur",
+      "deskripsi": "Pedas, cocok polybag & pot",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Sirami rutin, beri pupuk organik",
+      "petuah_leluhur": "Pedas kecil, hasil besar dari kesabaran",
+      "hama_penyakit": [
+        "Ulat",
+        "Virus"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 29,
+      "nama": "Cengkeh",
+      "kategori": "Herbal",
+      "deskripsi": "Pohon rempah tropis",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram teratur, pupuk organik",
+      "petuah_leluhur": "Rempah harum dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Kutu",
+        "Jamur"
+      ],
+      "panen": "7-8 tahun"
+    },
+    {
+      "id": 30,
+      "nama": "Kakao",
+      "kategori": "Buah",
+      "deskripsi": "Buah untuk coklat, pohon tropis",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Naungi bibit muda, siram rutin",
+      "petuah_leluhur": "Manisnya buah dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3-5 tahun"
+    },
+    {
+      "id": 31,
+      "nama": "Kacang Tanah",
+      "kategori": "Pangan",
+      "deskripsi": "Umbi kecil, kaya protein",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Tanah gembur, siram teratur",
+      "petuah_leluhur": "Tanah longgar, hasil melimpah",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 32,
+      "nama": "Bayam Merah",
+      "kategori": "Sayur",
+      "deskripsi": "Varian bayam kaya antioksidan",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk kompos",
+      "petuah_leluhur": "Daun merah, hati pun sehat",
+      "hama_penyakit": [
+        "Ulat",
+        "Siput"
+      ],
+      "panen": "1-1.5 bulan"
+    },
+    {
+      "id": 33,
+      "nama": "Kubis",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau berlapis, butuh tanah subur",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Sirami merata, pupuk organik",
+      "petuah_leluhur": "Lapisan yang rapi, hasil pun rapi",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 34,
+      "nama": "Bawang Merah",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu dapur penting, mudah ditanam di polybag",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Siram cukup, tanah gembur",
+      "petuah_leluhur": "Bawang kecil, rasa besar dari perawatan telaten",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 35,
+      "nama": "Bawang Putih",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu & obat tradisional",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Siram secukupnya, tanah gembur",
+      "petuah_leluhur": "Bawang harum dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 36,
+      "nama": "Selada",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau segar, cepat tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, jangan terlalu padat",
+      "petuah_leluhur": "Daun yang rapat, tubuh pun segar",
+      "hama_penyakit": [
+        "Siput",
+        "Ulat"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 37,
+      "nama": "Kacang Hijau",
+      "kategori": "Pangan",
+      "deskripsi": "Tanaman polong cepat panen",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, siram cukup",
+      "petuah_leluhur": "Panen cepat datang dari tanah yang dirawat",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2-2.5 bulan"
+    },
+    {
+      "id": 38,
+      "nama": "Kubis Brussel",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran mini, tahan dingin",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram merata, pupuk kompos",
+      "petuah_leluhur": "Mini tapi bernutrisi, jika dirawat telaten",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 39,
+      "nama": "Brokoli",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau padat nutrisi",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Sirami cukup, pupuk organik",
+      "petuah_leluhur": "Bunga hijau dari tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 40,
+      "nama": "Kembang Kol",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran putih, tahan dingin",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Sirami merata, pangkas daun tua",
+      "petuah_leluhur": "Putih bersih datang dari perawatan tekun",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 41,
+      "nama": "Kacang Panjang Varietas Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Varian cepat panen & produktif",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, pupuk rutin",
+      "petuah_leluhur": "Rambatan kuat, hasil pun melimpah",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 42,
+      "nama": "Kangkung Air",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran cepat tumbuh di air",
+      "media_tanam": [
+        "Hidroponik",
+        "Polybag"
+      ],
+      "tips_perawatan": "Air bersih, ganti rutin",
+      "petuah_leluhur": "Air yang jernih, daun yang segar",
+      "hama_penyakit": [
+        "Siput",
+        "Ulat"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 43,
+      "nama": "Bayam Merah Super",
+      "kategori": "Sayur",
+      "deskripsi": "Varian kaya antioksidan",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Daun merah, tubuh pun sehat",
+      "hama_penyakit": [
+        "Ulat",
+        "Siput"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 44,
+      "nama": "Kacang Polong",
+      "kategori": "Sayur",
+      "deskripsi": "Tanaman polong, merambat & manis",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, siram cukup",
+      "petuah_leluhur": "Polong manis datang dari tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 45,
+      "nama": "Bawang Bombay",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu dapur besar, kaya aroma",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Tanah gembur, siram merata",
+      "petuah_leluhur": "Besar kecil bukan soal, perawatan lah kunci",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "4 bulan"
+    },
+    {
+      "id": 46,
+      "nama": "Bawang Merah Mini",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu dapur kecil, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Bawang kecil, rasa besar dari ketelatenan",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 47,
+      "nama": "Terong Ungu",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran ungu, buah produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk rutin",
+      "petuah_leluhur": "Warna ungu, hasil pun indah",
+      "hama_penyakit": [
+        "Ulat",
+        "Layu"
+      ],
+      "panen": "3 bulan"
+    },
+    {
+      "id": 48,
+      "nama": "Semangka Mini",
+      "kategori": "Buah",
+      "deskripsi": "Buah kecil, manis & cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Jaga kelembaban, ikat buah",
+      "petuah_leluhur": "Kecil tapi manis, dari perhatian tulus",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 49,
+      "nama": "Melon Mini",
+      "kategori": "Buah",
+      "deskripsi": "Varian cepat panen, manis",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Siram cukup, ikat buah agar rapi",
+      "petuah_leluhur": "Manisnya datang dari kesabaran",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 50,
+      "nama": "Strawberry Mini",
+      "kategori": "Buah",
+      "deskripsi": "Buah kecil, manis & hiasan",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram pagi, pupuk organik",
+      "petuah_leluhur": "Kecil tapi manis, dari perhatian rajin",
+      "hama_penyakit": [
+        "Lalat buah",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 51,
+      "nama": "Basil Varietas Unggul",
+      "kategori": "Herbal",
+      "deskripsi": "Daun wangi, aromatik",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas daun tua, cukup sinar",
+      "petuah_leluhur": "Aroma harum dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 52,
+      "nama": "Mint Varietas Unggul",
+      "kategori": "Herbal",
+      "deskripsi": "Aromatik & cepat tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, tanah gembur",
+      "petuah_leluhur": "Harum datang dari tangan rajin",
+      "hama_penyakit": [
+        "Lalat daun"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 53,
+      "nama": "Lidah Buaya Mini",
+      "kategori": "Herbal/Hobi",
+      "deskripsi": "Tanaman tropis mudah tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram secukupnya, tanah kering",
+      "petuah_leluhur": "Keringkan yang berlebih, hidup lebih sehat",
+      "hama_penyakit": [
+        "Ulat"
+      ],
+      "panen": "6-12 bulan"
+    },
+    {
+      "id": 54,
+      "nama": "Anggrek Mini",
+      "kategori": "Hobi",
+      "deskripsi": "Tanaman hias kecil",
+      "media_tanam": [
+        "Cocopeat",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Semprot air, cahaya difilter",
+      "petuah_leluhur": "Hiasan alam butuh perhatian lembut",
+      "hama_penyakit": [
+        "Tungau",
+        "Jamur"
+      ],
+      "panen": "6-12 bulan"
+    },
+    {
+      "id": 55,
+      "nama": "Bonsai Mini",
+      "kategori": "Hobi",
+      "deskripsi": "Miniatur pohon, mudah dirawat",
+      "media_tanam": [
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas cabang, siram rutin",
+      "petuah_leluhur": "Bonsai tumbuh dari kesabaran hati",
+      "hama_penyakit": [
+        "Serangga kecil"
+      ],
+      "panen": "Bertahun-tahun"
+    },
+    {
+      "id": 56,
+      "nama": "Tomat Ceri",
+      "kategori": "Sayur",
+      "deskripsi": "Varian kecil, manis, cocok polybag",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pangkas daun tua",
+      "petuah_leluhur": "Kecil tapi manis dari perawatan tulus",
+      "hama_penyakit": [
+        "Tungau",
+        "Lalat buah"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 57,
+      "nama": "Paprika Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran manis, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk rutin",
+      "petuah_leluhur": "Buah manis datang dari kesabaran",
+      "hama_penyakit": [
+        "Ulat",
+        "Lalat"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 58,
+      "nama": "Brokoli Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau mini, nutrisi tinggi",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram merata, pupuk organik",
+      "petuah_leluhur": "Bunga hijau dari tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 59,
+      "nama": "Bawang Daun",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu dapur cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Siram cukup, tanah gembur",
+      "petuah_leluhur": "Daun hijau, rasa besar dari perawatan telaten",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "1.5-2 bulan"
+    },
+    {
+      "id": 60,
+      "nama": "Jahe Merah",
+      "kategori": "Herbal",
+      "deskripsi": "Umbi aromatik, obat & bumbu",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Sirami cukup, tanah gembur",
+      "petuah_leluhur": "Akar yang hangat, tubuh pun hangat",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "8-10 bulan"
+    },
+    {
+      "id": 61,
+      "nama": "Kunyit Mini",
+      "kategori": "Herbal",
+      "deskripsi": "Umbi obat & rempah",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Tanah lembab, cukup sinar",
+      "petuah_leluhur": "Akar yang kuat, obat pun ampuh",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "8-10 bulan"
+    },
+    {
+      "id": 62,
+      "nama": "Jeruk Nipis",
+      "kategori": "Buah",
+      "deskripsi": "Buah kecil, aromatik, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram rutin, pangkas cabang tua",
+      "petuah_leluhur": "Cabang yang sehat membawa buah manis",
+      "hama_penyakit": [
+        "Kutu",
+        "Tungau"
+      ],
+      "panen": "1-2 tahun"
+    },
+    {
+      "id": 63,
+      "nama": "Mangga Mini",
+      "kategori": "Buah",
+      "deskripsi": "Buah tropis mini, cepat panen",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram rutin, beri pupuk kandang",
+      "petuah_leluhur": "Pangkas yang tua, beri ruang yang muda",
+      "hama_penyakit": [
+        "Tungau",
+        "Lalat buah"
+      ],
+      "panen": "2-3 tahun"
+    },
+    {
+      "id": 64,
+      "nama": "Pepaya Mini",
+      "kategori": "Buah",
+      "deskripsi": "Buah tropis cepat panen, mini",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Sirami rutin, pupuk organik",
+      "petuah_leluhur": "Tumbuh subur dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Lalat buah",
+        "Ulat"
+      ],
+      "panen": "9-12 bulan"
+    },
+    {
+      "id": 65,
+      "nama": "Melon Varietas Unggul",
+      "kategori": "Buah",
+      "deskripsi": "Buah manis, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Siram cukup, ikat buah",
+      "petuah_leluhur": "Manisnya datang dari kesabaran",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 66,
+      "nama": "Semangka Varietas Unggul",
+      "kategori": "Buah",
+      "deskripsi": "Buah manis, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat"
+      ],
+      "tips_perawatan": "Jaga kelembaban tanah, ikat buah",
+      "petuah_leluhur": "Manis datang dari perhatian tulus",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 67,
+      "nama": "Basil Mini",
+      "kategori": "Herbal",
+      "deskripsi": "Daun wangi, cepat tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas daun tua, cukup sinar",
+      "petuah_leluhur": "Aroma harum dari tanah terawat",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "1-2 bulan"
+    },
+    {
+      "id": 68,
+      "nama": "Mint Mini",
+      "kategori": "Herbal",
+      "deskripsi": "Daun aromatik, mudah tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, tanah gembur",
+      "petuah_leluhur": "Harum datang dari tangan rajin",
+      "hama_penyakit": [
+        "Lalat daun"
+      ],
+      "panen": "1-2 bulan"
+    },
+    {
+      "id": 69,
+      "nama": "Bayam Hijau Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau cepat tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Daun hijau, tubuh pun sehat",
+      "hama_penyakit": [
+        "Ulat",
+        "Siput"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 70,
+      "nama": "Kangkung Varietas Cepat",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran cepat tumbuh, cocok hidroponik",
+      "media_tanam": [
+        "Polybag",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, ganti air teratur",
+      "petuah_leluhur": "Air bersih, daun segar",
+      "hama_penyakit": [
+        "Siput",
+        "Ulat"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 71,
+      "nama": "Cabai Rawit Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Pedas, kecil & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Pedas kecil, hasil besar",
+      "hama_penyakit": [
+        "Ulat",
+        "Virus"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 72,
+      "nama": "Terong Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran ungu mini, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk rutin",
+      "petuah_leluhur": "Warna ungu, hasil pun indah",
+      "hama_penyakit": [
+        "Ulat",
+        "Layu"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 73,
+      "nama": "Kacang Panjang Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Varian cepat panen, produktif",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, pupuk rutin",
+      "petuah_leluhur": "Rambatan kuat, hasil melimpah",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 74,
+      "nama": "Kubis Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau kecil, nutrisi tinggi",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Sirami merata, pupuk organik",
+      "petuah_leluhur": "Lapisan rapi, hasil pun rapi",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 75,
+      "nama": "Bawang Bombay Mini",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu dapur kecil, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Bawang kecil, rasa besar dari ketelatenan",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2-3 bulan"
+    },
+    {
+      "id": 76,
+      "nama": "Bawang Putih Mini",
+      "kategori": "Pangan",
+      "deskripsi": "Bumbu dapur & obat tradisional",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Siram secukupnya, tanah gembur",
+      "petuah_leluhur": "Bawang harum dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3 bulan"
+    },
+    {
+      "id": 77,
+      "nama": "Selada Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau mini, cepat tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, jangan terlalu padat",
+      "petuah_leluhur": "Daun rapat, tubuh pun segar",
+      "hama_penyakit": [
+        "Siput",
+        "Ulat"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 78,
+      "nama": "Kacang Hijau Mini",
+      "kategori": "Pangan",
+      "deskripsi": "Polong kecil, cepat panen",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, siram cukup",
+      "petuah_leluhur": "Panen cepat datang dari tanah terawat",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 79,
+      "nama": "Brokoli Mini Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau mini, nutrisi tinggi",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk organik",
+      "petuah_leluhur": "Bunga hijau dari tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 80,
+      "nama": "Kembang Kol Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran putih mini",
+      "media_tanam": [
+        "Tanah sawah",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram merata, pangkas daun tua",
+      "petuah_leluhur": "Putih bersih datang dari ketelatenan",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 81,
+      "nama": "Kacang Polong Mini",
+      "kategori": "Sayur",
+      "deskripsi": "Polong kecil, cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, siram cukup",
+      "petuah_leluhur": "Polong manis dari tangan rajin",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 82,
+      "nama": "Tomat Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Tomat manis & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pangkas daun tua",
+      "petuah_leluhur": "Manisnya dari perhatian konsisten",
+      "hama_penyakit": [
+        "Tungau",
+        "Lalat buah"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 83,
+      "nama": "Cabai Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Varian pedas & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Pedas datang dari ketelatenan",
+      "hama_penyakit": [
+        "Ulat",
+        "Virus"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 84,
+      "nama": "Terong Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran ungu, buah produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk rutin",
+      "petuah_leluhur": "Warna ungu, hasil pun indah",
+      "hama_penyakit": [
+        "Ulat",
+        "Layu"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 85,
+      "nama": "Bayam Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Varian cepat tumbuh, hijau segar",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Daun hijau, tubuh pun sehat",
+      "hama_penyakit": [
+        "Ulat",
+        "Siput"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 86,
+      "nama": "Selada Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran hijau cepat panen",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram rutin, jangan terlalu padat",
+      "petuah_leluhur": "Daun rapat, tubuh pun segar",
+      "hama_penyakit": [
+        "Siput",
+        "Ulat"
+      ],
+      "panen": "1 bulan"
+    },
+    {
+      "id": 87,
+      "nama": "Kacang Hijau Unggul",
+      "kategori": "Pangan",
+      "deskripsi": "Polong cepat panen & produktif",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Ikat pada rambatan, siram cukup",
+      "petuah_leluhur": "Panen cepat datang dari tanah terawat",
+      "hama_penyakit": [
+        "Ulat",
+        "Kutu"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 88,
+      "nama": "Paprika Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Sayuran manis & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk rutin",
+      "petuah_leluhur": "Buah manis dari perhatian telaten",
+      "hama_penyakit": [
+        "Ulat",
+        "Lalat"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 89,
+      "nama": "Strawberry Unggul",
+      "kategori": "Buah",
+      "deskripsi": "Buah merah manis & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Siram pagi, pupuk rutin",
+      "petuah_leluhur": "Kecil tapi manis, dari perhatian telaten",
+      "hama_penyakit": [
+        "Lalat buah",
+        "Jamur"
+      ],
+      "panen": "2 bulan"
+    },
+    {
+      "id": 90,
+      "nama": "Lidah Buaya Unggul",
+      "kategori": "Herbal",
+      "deskripsi": "Tanaman tropis, mudah tumbuh",
+      "media_tanam": [
+        "Polybag",
+        "Cocopeat",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram secukupnya, tanah kering",
+      "petuah_leluhur": "Keringkan yang berlebih, hidup lebih sehat",
+      "hama_penyakit": [
+        "Ulat"
+      ],
+      "panen": "6-12 bulan"
+    },
+    {
+      "id": 91,
+      "nama": "Anggrek Unggul",
+      "kategori": "Hobi",
+      "deskripsi": "Tanaman hias cantik",
+      "media_tanam": [
+        "Cocopeat",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Semprot air, cahaya difilter",
+      "petuah_leluhur": "Hiasan alam butuh perhatian lembut",
+      "hama_penyakit": [
+        "Tungau",
+        "Jamur"
+      ],
+      "panen": "6-12 bulan"
+    },
+    {
+      "id": 92,
+      "nama": "Bonsai Unggul",
+      "kategori": "Hobi",
+      "deskripsi": "Miniatur pohon, telaten & indah",
+      "media_tanam": [
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas cabang, siram rutin",
+      "petuah_leluhur": "Bonsai tumbuh dari kesabaran hati",
+      "hama_penyakit": [
+        "Serangga kecil"
+      ],
+      "panen": "Bertahun-tahun"
+    },
+    {
+      "id": 93,
+      "nama": "Kakao Mini",
+      "kategori": "Buah",
+      "deskripsi": "Buah coklat, pohon tropis",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Naungi bibit muda, siram rutin",
+      "petuah_leluhur": "Manisnya buah dari tanah dijaga",
+      "hama_penyakit": [
+        "Ulat",
+        "Jamur"
+      ],
+      "panen": "3-5 tahun"
+    },
+    {
+      "id": 94,
+      "nama": "Cengkeh Mini",
+      "kategori": "Herbal",
+      "deskripsi": "Pohon rempah tropis kecil",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram teratur, pupuk organik",
+      "petuah_leluhur": "Rempah harum dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Kutu",
+        "Jamur"
+      ],
+      "panen": "7-8 tahun"
+    },
+    {
+      "id": 95,
+      "nama": "Kaffir Lime Mini",
+      "kategori": "Herbal",
+      "deskripsi": "Daun & buah aromatik kecil",
+      "media_tanam": [
+        "Polybag",
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Cahaya cukup, siram teratur",
+      "petuah_leluhur": "Daun wangi dari tanah yang dijaga",
+      "hama_penyakit": [
+        "Kutu",
+        "Tungau"
+      ],
+      "panen": "2-3 tahun"
+    },
+    {
+      "id": 96,
+      "nama": "Padi Varietas Unggul",
+      "kategori": "Pangan",
+      "deskripsi": "Varian padi unggul produktif",
+      "media_tanam": [
+        "Tanah sawah"
+      ],
+      "tips_perawatan": "Kontrol air, pupuk organik",
+      "petuah_leluhur": "Air dan tangan rajin bawa hasil",
+      "hama_penyakit": [
+        "Wereng",
+        "Tikus"
+      ],
+      "panen": "3-4 bulan"
+    },
+    {
+      "id": 97,
+      "nama": "Jagung Mini Unggul",
+      "kategori": "Pangan",
+      "deskripsi": "Varian jagung cepat panen",
+      "media_tanam": [
+        "Tanah sawah",
+        "Polybag"
+      ],
+      "tips_perawatan": "Siram cukup, pupuk rutin",
+      "petuah_leluhur": "Tumbuh jika dirawat tekun",
+      "hama_penyakit": [
+        "Ulat",
+        "Burung"
+      ],
+      "panen": "2-2.5 bulan"
+    },
+    {
+      "id": 98,
+      "nama": "Kentang Mini",
+      "kategori": "Pangan",
+      "deskripsi": "Umbi kecil, cocok lahan terbatas",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Tanah gembur, penyiraman merata",
+      "petuah_leluhur": "Gali dalam, panen melimpah",
+      "hama_penyakit": [
+        "Nematoda",
+        "Jamur"
+      ],
+      "panen": "3 bulan"
+    },
+    {
+      "id": 99,
+      "nama": "Tomat Mini Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Tomat kecil, manis & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos",
+        "Hidroponik"
+      ],
+      "tips_perawatan": "Pangkas daun, pupuk rutin",
+      "petuah_leluhur": "Perhatian kecil, hasil besar",
+      "hama_penyakit": [
+        "Tungau",
+        "Lalat buah"
+      ],
+      "panen": "1.5-2 bulan"
+    },
+    {
+      "id": 100,
+      "nama": "Cabai Mini Unggul",
+      "kategori": "Sayur",
+      "deskripsi": "Cabai kecil, pedas & produktif",
+      "media_tanam": [
+        "Polybag",
+        "Kompos"
+      ],
+      "tips_perawatan": "Siram rutin, pupuk organik",
+      "petuah_leluhur": "Pedas dari kerja keras",
+      "hama_penyakit": [
+        "Ulat",
+        "Virus"
+      ],
+      "panen": "2 bulan"
+    }
+  ]
+}

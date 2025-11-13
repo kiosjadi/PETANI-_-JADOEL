@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Petani Jadoel AI 🌾</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1>Petani Jadoel AI 🌾</h1>
+      <p class="tagline">Teknologi Nandur Rasa — solusi tanam praktis + petuah leluhur</p>
+      <div class="controls">
+        <input id="searchInput" type="text" placeholder="Cari tanaman atau kategori..." />
+        <select id="kategoriFilter"><option value="">Semua Kategori</option></select>
+        <select id="mediaFilter"><option value="">Semua Media Tanam</option></select>
+        <select id="sortFilter">
+          <option value="name">Sort: Nama A-Z</option>
+          <option value="panen">Sort: Panen Cepat</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="plantContainer" class="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© Petani Jadoel AI — Gratis versi statis. Siap diupgrade jadi dinamis kapan saja.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
